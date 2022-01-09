@@ -1,3 +1,9 @@
+"""
+Create a class NOTEBOOK, which contains the name, surname, number phone and birthday of person. Define methods of access to these fields and overload operations:
+"+" - for adding a new element;
+"-" - for deleting an element;
+"*" - for searching for an element in the Notebook on one of the data fields.
+"""
 import datetime
 class Note:
     def __init__(self, name, surname, phone, birthday):
